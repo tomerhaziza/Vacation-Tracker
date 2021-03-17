@@ -7,6 +7,7 @@ const errorHandler = require("./errors/error-handler");
 const cors = require('cors');
 require('./controllers/push-controller');
 
+
 server.use(express.json());
 server.use(cors({ origin: ["http://localhost:3000", "http://localhost:4200"] }));
 server.use("/users", usersController);
