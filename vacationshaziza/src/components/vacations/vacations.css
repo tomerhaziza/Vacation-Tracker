@@ -1,0 +1,33 @@
+.vacations{
+        max-width: 1260px;
+        margin: auto;
+}
+
+
+.vacations .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+}
+@media screen and (max-width: 900px) {
+        .card {
+                flex-basis: 35%;
+                flex-grow: 0.5;
+        }
+        }
+        
+
+@media screen and (max-width: 740px) {
+.card {
+        flex-basis: 50%;
+        flex-grow: 0.5;
+}
+}
+
+@media screen and (max-width: 480px) {
+.card {
+        flex-basis: 100%;
+        margin: 0 4% 30px;
+}
+}

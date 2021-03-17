@@ -1,0 +1,10 @@
+.footer {
+    text-align: center;
+    padding: 30px;
+    color: rgb(242, 251, 255);
+}
+
+.footer h4 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+}

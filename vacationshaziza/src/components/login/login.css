@@ -1,0 +1,62 @@
+.login-page {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    flex-wrap: wrap;
+}
+
+.welcome-message {
+    padding: 70px 0;
+    color: rgb(242, 251, 255);
+    font-family: 'Audiowide', cursive;
+    font-size: calc(1.25em + 1vmin);
+    flex-basis: 50%;
+}
+
+.login{
+    padding: 1.3rem 1rem 2rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+.login > input {
+    width: 350px;
+    font-size: large;
+    margin: 10px;
+    padding : 10px;
+    border: rgb(221, 221, 221) 1px solid;
+    border-radius: 8px;
+    outline:none;
+}
+
+.login > input:focus {
+    border: rgb(24,119,242) 1px solid;
+}
+.login .login-button {
+    color: white;
+    background-color: rgb(24,119,242);
+}
+
+hr{
+    border-top: 0;
+    border-left: 0;
+    border-color: rgb(221, 221, 221);
+    margin: 20px 0 30px;
+}
+
+.login .register-button {
+    color: white;
+    background-color: rgb(66,183,42);
+    text-decoration: none;
+    width: 350px;
+    font-size: large;
+    padding : 10px;
+    border-radius: 8px;
+    outline:none;
+}
+
+/* .login > input:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} */
+

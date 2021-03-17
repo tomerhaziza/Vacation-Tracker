@@ -1,0 +1,21 @@
+.user-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+.user-panel p {
+    font-family: 'Architects Daughter', cursive;
+}
+.user-panel a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Architects Daughter', cursive;
+}
+
+.user-panel a:hover {
+    text-decoration: none;
+    color: rgb(197, 234, 255);
+    font-family: 'Architects Daughter', cursive;
+}
